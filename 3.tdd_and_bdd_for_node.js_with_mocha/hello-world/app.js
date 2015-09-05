@@ -15,7 +15,7 @@ app.all('*', function (request, response) {
 var server = http.createServer(app);
 var boot = function() {
   server.listen(app.get('port'), function() {
-    console.info('Express is burlao, this IS THE JUNGLE on port' + app.get('port'));
+    console.info('Express is burlao, this IS THE JUNGLE on port ' + app.get('port'));
   });
 }
 
